@@ -116,25 +116,25 @@ background: '/img/posts/03.jpg'
 
 <p>들여쓰기는 양쪽 다 잘 됐지만, Markdown에선 문구 왼쪽에 실선이 생겼는데 html로 변환했을 땐 실선이 사라져있었다.</p>
 
-<div style="text-align: center; size:5px;">
-  <img src="/img/posts/2021-10-26_src1.png" width="300px">
+<div style="text-align: center;">
+  <img src="/img/posts/2021-10-26_src1.png" width="150px">
 
-  <p style="color:gray; size:3px;">Markdown에서 보여지는 '>'태그</p>
+  <span style="color:gray; size:3px;">Markdown에서 보여지는 '>'태그</span>
 
-  <img src="/img/posts/2021-10-26_src2.png" width="300px">
+  <img src="/img/posts/2021-10-26_src2.png" width="150px">
 
-  <p style="color:gray; size:3px;">Markdown to html을 사용한 후</p>
+  <span style="color:gray; size:3px;">Markdown to html을 사용한 후</span>
 
-  <img src="/img/posts/2021-10-26_src3.png" width="300px">
+  <img src="/img/posts/2021-10-26_src3.png" width="150px">
 
-  <p style="color:gray; size:3px;">해당 툴에서 보여주는 html태그. <br>
-    중간에 들여쓰기가 한 번 작동하지 않는 건 메모용으로 적어둔 태그때문에 그런듯하다.</p>
+  <span style="color:gray; size:3px;">해당 툴에서 보여주는 html태그. <br>
+    중간에 들여쓰기가 한 번 작동하지 않는 건 메모용으로 적어둔 태그때문에 그런듯하다.</span>
 </div>
 
 
 <p>어떻게든 좌측의 실선을 살려보기 위해 이것저것 시도해본 결과, blockquote태그에 border-left 스타일을 적용시키는 것으로 비슷하게 흉내낼수는 있었다.</p>
 
-<blockquote style="border-left: 3px solid lightgreen; padding-left:10px; size:5px; border-left:10px;">이런식이다.</blockquote>
+<blockquote style="border-left: 3px solid lightgreen; size:5px;">이런식이다.</blockquote>
 
 <p>다만, 과연 Markdown만을 이용해 포스팅 할 수 있는 환경을 구성했을 때도 자유롭게 서식을 변경할 수 있을까? 가령 실선 색을 바꾼다던지, padding-left의 수치를 바꾸는 것과 같이 유동적인 포스팅이 가능할지 궁금하다.</p>
 
