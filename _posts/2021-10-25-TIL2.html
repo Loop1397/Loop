@@ -1,0 +1,148 @@
+---
+layout: post
+title: "TIL2"
+subtitle: "Markdown 문법"
+date: 2021-10-19 00:11:13 -0400
+background: '/img/posts/03.jpg'
+---
+
+
+<h2>Markdown</h2>
+
+<p>오늘은 Typora를 다운받아 Markdown을 사용해보았다. 여태까진 Markdown은 글을 편하게 꾸미기 위한 도구(혹은 서식)정도로 생각하고 있었는데, 오늘 Markdown의 여러가지 태그를 사용해본 소감으론, 생각보다 훨씬 쉽고 강력한 툴이라고 확신했다.</p>
+
+<p>Markdown을 이용하면 포스팅이 편해진다는 막연한 생각만 있었는데, 직접 사용해보고 나니 어서 이 블로그를 수정하고 싶단 생각이 든다. 매번 <p>태그를 입력하는 것도 꽤 불편히다보니..</p>
+
+<p>다만, Markdown을 이용하면서 몇가지 의문이 생겼는데, 그것은 오늘 공부한 내용 이후에 후술하겠다.</p>
+
+<p>이하로는 오늘 Typora를 사용해본 연습 포스트를 인터넷의 Markdown to html툴을 이용해 변환한 것이다.</p>
+
+<br/>
+
+<p>/# <h1></p>
+    <p>/## <h2></p>
+    <p>/### <h3></p>
+    <p>/#### <h4></p>
+    <p>/##### <h5></p>
+    <p>/###### <h6></p>
+    <p>*ㅇ*  _ㅇ_ 기울임체(이텔릭체) <em></em></p>
+    <p> **ㅇ** __ㅇ__ 볼드체 <string></string></p>
+    <p>\<u>밑줄\</u> css기능, text-decoration 속성</p>
+    <p>~~ㅇ~~ 취소선 <del></del></p>
+    <pre><code class="lang-html"><span class="hljs-meta">&lt;!DOCTYPE html&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-name">html</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-name">head</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-name">title</span>&gt;</span>Page title<span class="hljs-tag">&lt;/<span class="hljs-name">title</span>&gt;</span>
+    <span class="hljs-tag">&lt;/<span class="hljs-name">head</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-name">body</span>&gt;</span>
+    <span class="hljs-tag">&lt;/<span class="hljs-name">body</span>&gt;</span>
+    </code></pre>
+    <p><code>태그용 코드</code>    \<code></code></p>
+    <pre><code class="lang-html"><span class="hljs-meta">&lt;!DOCTYPE html&gt;</span>
+    </code></pre>
+    <hr>
+    <blockquote>
+    <p><code>안녕하세요</code></p>
+    </blockquote>
+    <pre><code class="lang-css"><span class="hljs-function"><span class="hljs-keyword">int</span> <span class="hljs-title">main</span><span class="hljs-params">()</span>
+    </span>{
+      <span class="hljs-built_in">cout</span> &lt;&lt; <span class="hljs-string">"Hello World!"</span> &lt;&lt; <span class="hljs-built_in">endl</span>;
+    }
+    </code></pre>
+    <blockquote>
+    <p>인용    </Blockquote></Blockquote></p>
+    <blockquote>
+    <p>이중 인용</p>
+    <blockquote>
+    <p>삼중 이상으로 중첩 가능</p>
+    </blockquote>
+    </blockquote>
+    </blockquote>
+    <p><a href="https://velog.io/@wonhs717/%EB%A7%88%ED%81%AC%EB%8B%A4%EC%9A%B4Markdown-%EB%AC%B8%EB%B2%95-ytk5zemk0x" title="하이퍼링크 문구">Link</a>    [하이퍼링크용 문구](링크 주소 넣기 &quot;마우스 올려둘시 뜨는 문구&quot;)    \<a href="~~">링크걸기</a></p>
+    <hr>
+    <p>--- or *** 하고 엔터 누르면 가로선 <hr/></p>
+    <ul>
+    <li>리스트1</li>
+    <li><p>리스트2</p>
+    </li>
+    <li><p>리스트 1-1</p>
+    </li>
+    <li>리스트 1-2</li>
+    </ul>
+    <p>## (<h2>)태그랑 결합 불가능(리스트 기능 작동 안함)</p>
+    <h2 id="-2">* 리스트 2</h2>
+    <ul>
+    <li>리스트 제목<ol>
+    <li>리스트 부제목1</li>
+    <li>리스트 부제목2</li>
+    </ol>
+    </li>
+    </ul>
+    <h2 id="-">* 응용</h2>
+    <pre><code> <span class="hljs-number">1.</span> 이런 느낌
+     <span class="hljs-number">2.</span> 일까요
+     * 부부제목
+    </code></pre><ul>
+    <li>[x] 체크박스 - [ ] 대괄호안에 x를 넣으면  이미 체크된 체크박스를 만들 수 있음</li>
+    </ul>
+    <table>
+        <thead>
+        <tr>
+        <th style="text-align:center">테이블 1</th>
+        <th style="text-align:center">테이블 2</th>
+        <th style="text-align:center">테이블 3</th>
+        <th style="text-align:center">테이블 4</th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr>
+        <td style="text-align:center">내용1</td>
+        <td style="text-align:center">내용2</td>
+        <td style="text-align:center">내용3</td>
+        <td style="text-align:center">내용4</td>
+        </tr>
+        </tbody>
+        </table>
+
+<br/>
+
+<h2>몇가지 의문</h2>
+
+<h4>1.</h4>
+
+<p>우선은 Markdown의 '>'태그(html에선 'blockquote'로 치환되는 태그이다.), 해당 태그를 사용했을 떼 Markdown에서의 결과물과 Markdown to html을 사용해서 나온 결과물이 차이가 있었다.</p>
+
+<p>들여쓰기는 양쪽 다 잘 됐지만, Markdown에선 문구 왼쪽에 실선이 생겼는데 html로 변환했을 땐 실선이 사라져있었다.</p>
+
+<img src="../img/posts/2021-10-26_src1.png" style="text-align:center;">
+
+<p style="color:gray; text-align:center;">Markdown에서 보여지는 '>'태그</p>
+
+<img src="../img/posts/2021-10-26_src2.png" style="text-align:center;">
+
+<p style="color:gray; text-align:center;">Markdown to html을 사용한 후</p>
+
+<img src="../img/posts/2021-10-26_src3.png" style="text-align:center;">
+
+<p style="color:gray; text-align:center;">해당 툴에서 보여주는 html태그. <br>
+    중간에 들여쓰기가 한 번 작동하지 않는 건 메모용으로 적어둔 태그때문에 그런듯하다.</p>
+
+<p>어떻게든 좌측의 실선을 살려보기 위해 이것저것 시도해본 결과, blockquote태그에 border-left 스타일을 적용시키는 것으로 비슷하게 흉내낼수는 있었다.</p>
+
+<blockquote style="border-left: 3px solid lightgreen; padding-left:5px;">이런식이다.<br>(border-left와 padding-left를 적용시켰다)</blockquote>
+
+<p>다만, 과연 Markdown만을 이용해 포스팅 할 수 있는 환경을 구성했을 때도 자유롭게 서식을 변경할 수 있을까? 가령 실선 색을 바꾼다던지, padding-left의 수치를 바꾸는 것과 같이 유동적인 포스팅이 가능할지 궁금하다.</p>
+
+<p>최하단의 table태그도 비슷한 이유로 외곽선이 표시되지 않는 것을 확인할 수 있었다. 이쪽도 해결법은 비슷하리라 예상된다.</p>
+
+<h4>2.</h4>
+
+<p>두번째 의문으로는 위에 적혀있듯, '##'(h1~6)태그와 '-'(li)태그가 동시에 적용되지 않는 점이다. 이 부분은 해결하지 못해도 포스팅 자체에 큰 문제는 없겠지만(띄어쓰기를 4번정도 하면 들여쓰기와 같으니까), 신경쓰이는 부분이라 작성해두었다.</p>
+
+<h4>3.</h4>
+
+<p>마지막으로는 - [ ](checkbox)태그의 변경 오류이다. -(li)태그가 먼저 인식되어 checkbox를 만들지 못하는 것으로 보이는데, Markdown을 이용해서 포스팅 가능한 환경이 만들어졌을 때 문제가 해결될지가 의문이다. </p>
+  
+<p>만약 해결되지 않는다면 input type="checkbox" 태그를 직접 입력해서 체크박스를 넣을 수 있겠지만, 그렇게 된다면 Markdown을 이용하는 의미가 반감되어버린다.</p>
+
+<p>다행인건 이 문제 또한 2번 의문처럼 해결되지 못해도 큰 문제는 없으리라 생각되니, 후에 확인해 보기로.</p>
