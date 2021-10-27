@@ -1,24 +1,24 @@
-title:              Clean Blog
-email:              loop1397@naver.com
-description:        A Blog Theme by Start Bootstrap
-author:             Start Bootstrap
-baseurl:            ""
-url:                "http://omnomnomnom.mooo.com/"
+title: Clean Blog
+email: loop1397@naver.com
+description: A Blog Theme by Start Bootstrap
+author: Start Bootstrap
+baseurl: ""
+url: "http://omnomnomnom.mooo.com/"
 
 # Social Profiles
-twitter_username:   Pinbol
-github_username:    Pinbol
-facebook_username:  Pinbol
-instagram_username:  
+twitter_username: #Pinbol
+github_username: NoChanwoo
+facebook_username: #Pinbol
+instagram_username:
 linkedin_username:
 
 # Add your google-analytics ID here to activate google analytics
-google_analytics:   UA-XXXXXXXXX-X # out your google-analytics code
+google_analytics: UA-XXXXXXXXX-X # out your google-analytics code
 
 # Build settings
-markdown:           kramdown
-paginate:           5
-paginate_path:      "/posts/page:num/"
+markdown: kramdown
+paginate: 5
+paginate_path: "/posts/page:num/"
 plugins:
   - jekyll-feed
   - jekyll-paginate
