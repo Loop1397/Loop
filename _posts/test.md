@@ -1,6 +1,6 @@
 ## **Markdown 포스팅 테스트**
 
-![image](//img/posts/image.png)
+![image](../img/posts/image.png)
 
 > 잘 됐으면 좋겠는데
 >
